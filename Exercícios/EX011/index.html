@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    
+    <picture>
+        <source media="(max-width: 1050px)" srcset="imagens/M.png" type="image/">
+        <img src="imagens/M.png" alt="Imagen flexivel">
+
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML5.</p>
+    <audio src="Fantasyland - Quincas Moreira.mp3" controls autoplay></audio>
+    <audio preload="auto" autoplay controls loop>
+        <source src="Fantasyland - Quincas Moreira.mp3" type="audio/mpeg">
+    <p>infelizmente seu navegador não consegue reproduzir audio.</p>
+    <a href="Fantasyland - Quincas Moreira.mp3">Clique aqui para baixar o arquivo mp3</a>    
+    </audio>
+
+    
+
+</body>
+</html>
